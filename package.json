@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "angular-to-do-list",
   "version": "0.0.0",
   "scripts": {
@@ -34,5 +35,27 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.1.3"
+=======
+  "name": "techcamp_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js -s 1000 -t 60000 --exit",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "mongojs": "^3.1.0",
+    "nodejs": "^0.0.0",
+    "supertest": "^6.3.3"
+>>>>>>> 79cfb99 (first commit)
   }
 }
